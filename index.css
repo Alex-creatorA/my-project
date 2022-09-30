@@ -18,6 +18,11 @@ ul {
   list-style: none;
 }
 
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  font-weight: normal;
+}
+
 .container {
   margin: 0 auto;
   width: 950px;
@@ -26,6 +31,7 @@ ul {
 .header {
   height: 100px;
   position: relative;
+  margin-bottom: 150px;
 }
 
 .logo {
@@ -64,7 +70,7 @@ ul {
 
 .contacts{
   font-style: normal;
-  text-align: end;
+  text-align: right;
   
 }
 
@@ -84,3 +90,30 @@ ul {
   color:#FFFFFF;
 }
 
+.hero__tittle{
+  
+  width: 515px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height:1.1;
+  margin-bottom: 24x;
+  
+}
+
+.hero__description{
+  font-style: 18px;
+  margin-bottom: 25px;
+}
+
+.btn{
+  background-color:  #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #DA0100;
+}
