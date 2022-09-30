@@ -18,7 +18,12 @@ ul {
   list-style: none;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   font-weight: normal;
 }
@@ -64,56 +69,58 @@ h1,h2,h3,h4,h5,h6{
   font-size: 14px;
 }
 
-.nav__list:hover{
-  color:#DA0100;
+.nav__list:hover {
+  color: #da0100;
 }
 
-.contacts{
+.contacts {
   font-style: normal;
   text-align: right;
-  
 }
 
-.contacts__phone{
+.contacts__phone {
   text-decoration: none;
   font-size: 26px;
   margin-bottom: 4px;
 }
 
-.contacts__shadow{
+.contacts__shadow {
   padding-top: 70px;
 }
 
-.contacts__dropdown{
+.contacts__dropdown {
   font-size: 13px;
   text-decoration: underline;
-  color:#FFFFFF;
+  color: #ffffff;
 }
 
-.hero__tittle{
-  
+ .hero{
+  background-color: #da0100;
+  height: 579px;
+ }
+.hero__tittle {
   width: 515px;
   font-size: 72px;
   font-weight: 700;
-  line-height:1.1;
-  margin-bottom: 24x;
-  
+  line-height: 1.1;
+  margin-bottom: 24px;
 }
 
-.hero__description{
+.hero__description {
   font-style: 18px;
-  margin-bottom: 25px;
+  margin-bottom: 51px;
 }
 
-.btn{
-  background-color:  #F5170E;
+.btn {
+  background-color: #f5170e;
   border-radius: 35px;
   padding: 18px 40px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 250px;
 }
 
-.btn:hover{
-  background-color: #DA0100;
+.btn:hover {
+  background-color: #da0100;
 }
