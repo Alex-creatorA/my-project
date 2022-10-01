@@ -94,10 +94,9 @@ h6 {
   color: #ffffff;
 }
 
- .hero{
-  background-color: #da0100;
+.hero {
   height: 579px;
- }
+}
 .hero__tittle {
   width: 515px;
   font-size: 72px;
@@ -124,3 +123,4 @@ h6 {
 .btn:hover {
   background-color: #da0100;
 }
+
