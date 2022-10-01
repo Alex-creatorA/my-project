@@ -1,11 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
 body {
   background-color: #001821;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.42;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+img{
+  max-width: 100%;
 }
 
 a {
@@ -30,7 +40,7 @@ h6 {
 
 .container {
   margin: 0 auto;
-  width: 950px;
+  width: 919px;
 }
 
 .header {
@@ -42,27 +52,27 @@ h6 {
 .logo {
   display: block;
   position: absolute;
-  top: 30px;
-  left: 0;
+  top: 2px;
+  left: 0px;
+  width: 25px;
 }
 
 .nav__list {
   position: absolute;
-  top: 42px;
-  left: 350px;
-}
-
-.contacts__phone {
-  position: absolute;
-  top: 26px;
-  right: 0;
+  top: 13px;
+  left: 133px;
 }
 
 .nav__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 50px;
   text-decoration: none;
+  margin-right: 41px;
+  font-size: 11px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
 }
 
 .nav__list {
@@ -79,8 +89,12 @@ h6 {
 }
 
 .contacts__phone {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  size: 26px;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 24px;
   margin-bottom: 4px;
 }
 
@@ -124,3 +138,10 @@ h6 {
   background-color: #da0100;
 }
 
+
+.logo{
+  border: 1px solid red;
+   width: 85px; 
+   padding:6px;
+
+}
