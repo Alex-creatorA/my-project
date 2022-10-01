@@ -1,8 +1,6 @@
-*{
+* {
   box-sizing: border-box;
 }
-
-
 
 body {
   background-color: #001821;
@@ -14,7 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
@@ -138,10 +136,7 @@ h6 {
   background-color: #da0100;
 }
 
-
-.logo{
-  border: 1px solid red;
-   width: 85px; 
-   padding:6px;
-
+.logo {
+  width: 85px;
+  padding: 6px;
 }
