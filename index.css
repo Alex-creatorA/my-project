@@ -31,50 +31,49 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+index.css h6 {
   margin: 0;
   font-weight: normal;
 }
 
 .container {
   margin: 0 auto;
-  width: 919px;
+  width: 1140px;
 }
 
 .header {
   height: 100px;
   position: relative;
-  margin-bottom: 150px;
+  margin-bottom: 82px;
 }
 
 .logo {
   display: block;
   position: absolute;
-  top: 2px;
+  top: 14px;
   left: 0px;
-  width: 25px;
 }
 
 .nav__list {
   position: absolute;
-  top: 13px;
-  left: 133px;
+  top: 26px;
+  left: 163px;
 }
 
 .nav__item {
   display: inline-block;
   vertical-align: middle;
   text-decoration: none;
-  margin-right: 41px;
-  font-size: 11px;
+  margin-right: 51px;
+}
+
+.nav__item--active .nav__item{
+  color: #da0100;
+
 }
 
 .nav__item:last-child {
   margin-right: 0;
-}
-
-.nav__list {
-  font-size: 14px;
 }
 
 .nav__list:hover {
@@ -88,16 +87,15 @@ h6 {
 
 .contacts__phone {
   position: absolute;
-  top: 5px;
+  top: 13px;
   right: 0;
-  size: 26px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: 4px;
 }
 
 .contacts__shadow {
-  padding-top: 70px;
+  padding-top: 41px;
 }
 
 .contacts__dropdown {
@@ -113,13 +111,15 @@ h6 {
   width: 515px;
   font-size: 72px;
   font-weight: 700;
-  line-height: 1.1;
-  margin-bottom: 24px;
+  line-height: 1.4;
+  margin-bottom: 21px;
+  
+
 }
 
 .hero__description {
-  font-style: 18px;
-  margin-bottom: 51px;
+font-size: 18px;
+  margin-bottom: 49px;
 }
 
 .btn {
@@ -134,9 +134,4 @@ h6 {
 
 .btn:hover {
   background-color: #da0100;
-}
-
-.logo {
-  width: 85px;
-  padding: 6px;
 }
