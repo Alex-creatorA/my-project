@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 
 body {
   background-color: #001821;
@@ -36,6 +34,10 @@ index.css h6 {
   font-weight: normal;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .container {
   margin: 0 auto;
   width: 1140px;
@@ -65,11 +67,6 @@ index.css h6 {
   vertical-align: middle;
   text-decoration: none;
   margin-right: 51px;
-}
-
-.nav__item--active .nav__item{
-  color: #da0100;
-
 }
 
 .nav__item:last-child {
@@ -113,12 +110,10 @@ index.css h6 {
   font-weight: 700;
   line-height: 1.4;
   margin-bottom: 21px;
-  
-
 }
 
 .hero__description {
-font-size: 18px;
+  font-size: 18px;
   margin-bottom: 49px;
 }
 
@@ -135,3 +130,32 @@ font-size: 18px;
 .btn:hover {
   background-color: #da0100;
 }
+
+.tours {
+  margin-bottom: 120px;
+}
+
+.tours__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 46px;
+}
+
+.tours__item {
+  min-height: 305px;
+  background: #ffffff;
+  border-radius: 0px 0px 5px 5px;
+  display: inline-block;
+  margin-right: 27px;
+  width: 359px;
+}
+
+.tours__item:last-child{
+  margin-right: 0px;
+}
+
+ .fff { 
+  padding: 33px 22px;
+}
+
+
