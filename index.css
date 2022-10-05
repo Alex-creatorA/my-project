@@ -167,8 +167,8 @@ index.css h6 {
   margin-bottom: 22px;
 }
 
-.tours__contentent--discraption{
-  display: inline-block;
+.tours__contentent--description{
+
   vertical-align: top;
   width: 305px;
   margin-right: 30px;
@@ -177,6 +177,22 @@ index.css h6 {
 .tours__contentent--discraption:last-child{
   margin-right: 0;
 }
+
+/* .tours__list-service{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.tours__item--calenddar{
+  display: flex;
+}
+
+.tours__item--meal{
+  display: flex;
+} */
+
+
 
 
 
