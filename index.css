@@ -171,23 +171,26 @@ index.css h6 {
   vertical-align: top;
   width: 127px;
   margin-right: 28px;
+  margin-bottom: 20px;
+   color: #666666;
+  
 }
 
-.tours__item--picture:last-child{
+.tours__item--picture:last-child {
   margin-right: 0;
 }
 
-
-/* .tours__list-service{
-  display: flex;
-  justify-content: space-between;
-
+.tours__list-service {
+  margin-bottom: 40px;
 }
 
-.tours__item--calenddar{
+.tours__item--calenddar {
   display: flex;
 }
 
-.tours__item--meal{
+.tours__item--meal {
   display: flex;
-} */
+}
+*/ .tours__day--meal {
+  font-size: 16px;
+}
