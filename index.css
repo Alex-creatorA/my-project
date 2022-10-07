@@ -123,6 +123,7 @@ index.css h6 {
   text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 250px;
+  color: #ffffff;
 }
 
 .btn:hover {
@@ -139,8 +140,9 @@ index.css h6 {
   margin-bottom: 46px;
 }
 
-.tours__list {
-}
+/* .tours__list {
+  height: 310px;
+}  */
 
 .tours__item {
   min-height: 90px;
@@ -163,17 +165,25 @@ index.css h6 {
 .tours__item-title {
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 22px;
+  margin-bottom: 19px;
 }
 
 .tours__item--picture {
   display: inline-block;
+  margin-left: 8px;
   vertical-align: top;
-  width: 127px;
-  margin-right: 28px;
+  width: 141px;
+  margin-right: 0px;
   margin-bottom: 20px;
-   color: #666666;
-  
+  color: #666666;
+  align-items: center;
+  font-size: 16px;
+}
+.tours__days--meal {
+  padding-top: 2px;
+  padding-left: 5px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .tours__item--picture:last-child {
@@ -181,7 +191,7 @@ index.css h6 {
 }
 
 .tours__list-service {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .tours__item--calenddar {
@@ -191,6 +201,52 @@ index.css h6 {
 .tours__item--meal {
   display: flex;
 }
-*/ .tours__day--meal {
+.tours__day--meal {
   font-size: 16px;
 }
+
+.tours__item-btn {
+  background-color: #ffffff;
+  color: #f5170e;
+  border: 1px solid #f5170e;
+  border-radius: 35px;
+  padding: 17px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+
+.tours__bali--btn{
+  background-color:#F5170E;
+  color: white;
+  border: 1px solid #f5170e;
+  border-radius: 35px;
+  padding: 17px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.tours__bali--btn:hover{
+  background: #F5170E;
+
+}
+
+.news__item{
+  width: 550px;
+  display: inline-block;
+  vertical-align:top;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.news__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
