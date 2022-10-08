@@ -163,37 +163,55 @@
           <section class="news">
             <h3 class="news__title">Новости и акции</h3>
             <ul class="news__list">
-              <li class="news__item">
+              <li class="news__item news__it">
                 <img src="img/plain.png" alt="" class="news__img" />
-                <p class="news__item-data">Декабрь 2019</p>
-                <p class="news__item-title">Дешевые путевки на Новый Год!</p>
-                <p class="news__item-description">
-                  Проведи новый год в Тайланде
-                </p>
+                <div class="news__text--content">
+                  <p class="news__item-data">Декабрь 2019</p>
+                  <p class="news__item-titlee">Дешевые путевки на Новый Год!</p>
+                  <p class="news__item-description">
+                    Проведи новый год в Тайланде
+                  </p>
+                </div>
               </li>
             </ul>
             <ul class="news__list">
-              <li class="news__item">
-                <img src="img/Surfer.png" alt="" class="news__img" />
-                <p class="news__item-data">Декабрь 2019</p>
-                <h3 class="news__item-title">Акция для серфенгистов!</h3>
-                <p class="news__item-description">
-                  В сезон больших волн скидка на путевку в Тайланд на остров
-                  серфенгистов. Удачного пути!
-                </p>
+              <li class="news__itemm">
+                <img src="img/Surfer.png" alt="" class="news__imgg" />
+                <div class="news__text--contentt">
+                  <p class="news__item-data">Декабрь 2019</p>
+                  <h3 class="news__item-title new">Акция для серфенгистов!</h3>
+                  <p class="news__item-description">
+                    В сезон больших волн скидка на путевку в Тайланд на остров
+                    серфенгистов. Удачного пути!
+                  </p>
+                </div>
               </li>
             </ul>
 
             <div class="paginator">
               <div class="paginator_display">Cтраница 1 из 7</div>
               <ul class="paginator-list">
-                <li class="paginator__item">1</li>
-                <li class="paginator__item">2</li>
-                <li class="paginator__item">3</li>
-                <li class="paginator__item">4</li>
-                <li class="paginator__item">5</li>
-                <li class="paginator__item">6</li>
-                <li class="paginator__item">7</li>
+                <li class="paginator__item pager__item--active">
+                  <a href="#" class="paginator__link">1</a>
+                </li>
+                <li class="paginator__item">
+                  <a href="#" class="paginator__link">2</a>
+                </li>
+                <li class="paginator__item">
+                  <a href="#" class="paginator__link">3</a>
+                </li>
+                <li class="paginator__item">
+                  <a href="#" class="paginator__link">4</a>
+                </li>
+                <li class="paginator__item">
+                  <a href="#" class="paginator__link">5</a>
+                </li>
+                <li class="paginator__item">
+                  <a href="#" class="paginator__link">6</a>
+                </li>
+                <li class="paginator__item">
+                  <a href="#" class="paginator__link">7</a>
+                </li>
               </ul>
             </div>
           </section>
@@ -202,53 +220,59 @@
               <img src="img/gates.png" alt="" />
             </div>
             <div class="about__team">
-              <img src="img/mountains.png" alt="" class="about__team-img" />
+              <!-- <img src="img/mountains.png" alt="" class="about__team-img" /> -->
               <h2 class="about__team-title">О нас</h2>
-              <p class="about__team-discription">
-                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-                сгенерировать несколько абзацев более менее осмысленного текста
-                рыбы на русском языке, а начинающему оратору отточить навык
-                публичных выступлений в домашних условиях.
-              </p>
+              <div class="about__team--text">
+                <p>
+                  Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                  сгенерировать несколько абзацев более менее осмысленного
+                  текста рыбы на русском языке, а начинающему оратору отточить
+                  навык публичных выступлений в домашних условиях.
+                </p>
+              </div>
               <a href="#" class="about__team-btn btn">Подробней</a>
             </div>
           </section>
         </main>
+
         <footer class="footer">
-          <div class="container">
-            <a class="logo__footer" href="/">
-              <img src="img/logo.png" alt="" class="logo__pic-footer" />
+          <div class="container footer-conteiner__content">
+            <a class="logo" href="/">
+              <img src="img/logo.png" alt="" class="logor" />
             </a>
-            <nav class="nav__footer">
-              <ul class="nav__list-footer">
-                <li class="nav__item-footer">
-                  <a href="" class="nav__item-thecond">Главная</a>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="" class="nav__item">Главная</a>
                 </li>
-                <li class="nav__item-footer">
-                  <a href="" class="nav__item-thecond">Услуги</a>
+                <li class="nav__item">
+                  <a href="" class="nav__item">Услуги</a>
                 </li>
-                <li class="nav__item-footer">
-                  <a href="" class="nav__item-thecond">Отзывы</a>
+                <li class="nav__item">
+                  <a href="" class="nav__item">Отзывы</a>
                 </li>
               </ul>
             </nav>
-            <ul class="footer__socials">
-              <li class="footer__social-tg">
-                <img src="img/telegram.png" alt="" />
+            <ul class="socials">
+              <li class="socials__item social__item--icon-tg">
+                <a href="#"class="socials__link"></a>  
               </li>
-              <li class="footer__socials-vk">
-                <img src="img/vk.png" alt="" />
+              <li class="socials__item social__item--icon-vk">
+                <a href="#"class="socials__link"></a>  
               </li>
-              <li class="footer__socials-fecbook">
-                <img src="img/f.png" alt="" />
+              <li class="socials__item social__item--icon-fec">
+                <a href="#"class="socials__link"></a>  
               </li>
-              <li class="footer__socials-insta">
-                <img src="img/in.png" alt="" />
+              <li class="socials__item social__item--icon-insta">
+                <a href="#"class="socials__link"></a>  
+              </li>
+              
               </li>
             </ul>
             <address class="contacts">
               <p class="contacts__description">Бесплатные звонки по России</p>
-              <a class="contacts__phone-footer">8 800 700 30 30</a>
+              <a class="contacts__phone ">8 800 700 30 30</a>
+              <div class="line"></div>
             </address>
           </div>
         </footer>

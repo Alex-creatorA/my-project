@@ -131,7 +131,7 @@ index.css h6 {
 }
 
 .tours {
-  margin-bottom: 120px;
+  margin-bottom: 136px;
 }
 
 .tours__title {
@@ -214,11 +214,10 @@ index.css h6 {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
-  
 }
 
-.tours__bali--btn{
-  background-color:#F5170E;
+.tours__bali--btn {
+  background-color: #f5170e;
   color: white;
   border: 1px solid #f5170e;
   border-radius: 35px;
@@ -228,18 +227,32 @@ index.css h6 {
   text-decoration: none;
 }
 
-.tours__bali--btn:hover{
-  background: #F5170E;
-
+.tours__bali--btn:hover {
+  background: #f5170e;
 }
 
-.news__item{
-  width: 550px;
+.news__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.news {
+  margin-bottom: 55px;
+}
+
+.news__list {
+  width: 568px;
   display: inline-block;
-  vertical-align:top;
+  vertical-align: top;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
+  margin-bottom: 47px;
+}
+
+.news__item {
+  margin-right: 0px;
 }
 
 .news__img {
@@ -249,4 +262,217 @@ index.css h6 {
   object-fit: cover;
 }
 
+.news__text--content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 30px;
+  min-height: 140px;
+}
+
+.news__item-data {
+  margin-bottom: 12px;
+}
+
+.news__item-title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: -10px;
+}
+
+.news__item-description {
+  font-size: 16px;
+}
+.new {
+}
+
+.news__it {
+  margin-right: 14px;
+}
+
+.news__imgg {
+  height: 395px;
+  width: 566px;
+}
+
+.news__itemm {
+  margin-left: 2px;
+}
+
+.news__text--contentt {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 14px 37px;
+  min-height: 140px;
+}
+
+.news__item-titlee {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: -13px;
+}
+
+.paginator {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 143px;
+}
+
+.paginator-list,
+.paginator_display {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator_display {
+  margin-right: 36px;
+}
+
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pager__item--active .paginator__link {
+  background: #ffffff;
+  color: #f5170e;
+}
+
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+/* .about__team::after {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 490px;
+  height: 505px;
+  background: url(/img/gates.png) center center / cover no-repeat;
+} */
+
+.about__team {
+  background: url(/img/mountains.png);
+  width: 785px;
+  height: 455px;
+  margin-top: -412px;
+  margin-left: 352px;
+  color: #060606;
+  position: absolute;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 5px;
+  padding: 70px 80px;
+}
+
+.about__team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 40px;
+}
+
+.about__team--text {
+  font-size: 16px;
+  margin-bottom: 59px;
+  margin-right: 124px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.about__team--text p {
+  margin-bottom: 20px;
+}
+
+.about__team--text p:last-child {
+  margin-bottom: 0px;
+}
+
+.about__team-img {
+  display: block;
+  height: 455px;
+  width: 785px;
+  margin-left: 10px;
+  margin-top: 10px;
+  object-fit: cover;
+  position: relative;
+}
+
+.about {
+  margin-bottom: 98px;
+}
+
+.footer {
+  margin-top: 12px;
+  height: 146px;
+  position: relative;
+  margin-top: 10px;
+  
+}
+
+.contacts__description {
+  font-size: 11px;
+  color: #9a9a9a;
+}
+
+
+.socials__link {
+  display:block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+
+.socials__item{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+
+.socials__item:last-child{
+  margin-right: 0;
+}
+
+.socials {
+  position: absolute;
+  top: 22px;
+  right: 260px;
+}
+
+.social__item--icon-tg {
+  background-image: url(./img/telegram.png);
+}
+
+.social__item--icon-vk {
+  background-image: url(/img/vk.png);
+}
+
+.social__item--icon-fec {
+  background-image: url(/img/f.png);
+}
+
+.social__item--icon-insta {
+  background-image: url(/img/in.png);
+}
+
+.footer-conteiner__content{
+  border-top: 1px solid  rgba(255, 255, 255, 0.1);
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+.contacts__description{
+  margin-bottom: 10px;
+}
 
