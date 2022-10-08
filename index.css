@@ -71,7 +71,7 @@ index.css h6 {
   margin-right: 0;
 }
 
-.nav__list:hover {
+.nav__item:hover {
   color: #da0100;
 }
 
@@ -91,6 +91,12 @@ index.css h6 {
 
 .contacts__shadow {
   padding-top: 41px;
+  text-decoration: underline;
+  color: rgba(152, 164, 168, 1);
+}
+
+.contacts__shadow:hover {
+  color: rgba(255, 255, 255, 1);
 }
 
 .contacts__dropdown {
@@ -139,10 +145,6 @@ index.css h6 {
   font-weight: bold;
   margin-bottom: 46px;
 }
-
-/* .tours__list {
-  height: 310px;
-}  */
 
 .tours__item {
   min-height: 90px;
@@ -205,18 +207,7 @@ index.css h6 {
   font-size: 16px;
 }
 
-.tours__item-btn {
-  background-color: #ffffff;
-  color: #f5170e;
-  border: 1px solid #f5170e;
-  border-radius: 35px;
-  padding: 17px 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.tours__bali--btn {
+.tours__btn {
   background-color: #f5170e;
   color: white;
   border: 1px solid #f5170e;
@@ -227,8 +218,9 @@ index.css h6 {
   text-decoration: none;
 }
 
-.tours__bali--btn:hover {
-  background: #f5170e;
+.tours__btn:hover {
+  background: white;
+  color: #da0100;
 }
 
 .news__title {
@@ -284,8 +276,6 @@ index.css h6 {
 .news__item-description {
   font-size: 16px;
 }
-.new {
-}
 
 .news__it {
   margin-right: 14px;
@@ -336,9 +326,10 @@ index.css h6 {
   vertical-align: middle;
 }
 
-.pager__item--active .paginator__link {
+.paginator__item:hover {
   background: #ffffff;
   color: #f5170e;
+  border-radius: 40px;
 }
 
 .paginator__link {
@@ -350,15 +341,6 @@ index.css h6 {
   font-weight: bold;
   line-height: 32px;
 }
-
-/* .about__team::after {
-  content: "";
-  display: inline-block;
-  vertical-align: top;
-  width: 490px;
-  height: 505px;
-  background: url(/img/gates.png) center center / cover no-repeat;
-} */
 
 .about__team {
   background: url(/img/mountains.png);
@@ -416,7 +398,6 @@ index.css h6 {
   height: 146px;
   position: relative;
   margin-top: 10px;
-  
 }
 
 .contacts__description {
@@ -424,22 +405,20 @@ index.css h6 {
   color: #9a9a9a;
 }
 
-
 .socials__link {
-  display:block;
+  display: block;
   text-decoration: none;
   width: 36px;
   height: 36px;
 }
 
-.socials__item{
+.socials__item {
   display: inline-block;
   vertical-align: middle;
   margin-right: 7px;
 }
 
-
-.socials__item:last-child{
+.socials__item:last-child {
   margin-right: 0;
 }
 
@@ -453,26 +432,40 @@ index.css h6 {
   background-image: url(./img/telegram.png);
 }
 
+.social__item--icon-tg:hover {
+  background-image: url(./img/t.png);
+}
+
 .social__item--icon-vk {
   background-image: url(/img/vk.png);
+}
+
+.social__item--icon-vk:hover {
+  background-image: url(/img/vk\ 1.png);
 }
 
 .social__item--icon-fec {
   background-image: url(/img/f.png);
 }
 
+.social__item--icon-fec:hover {
+  background-image: url(/img/f2.png);
+}
+
 .social__item--icon-insta {
   background-image: url(/img/in.png);
 }
 
-.footer-conteiner__content{
-  border-top: 1px solid  rgba(255, 255, 255, 0.1);
+.social__item--icon-insta:hover {
+  background-image: url(/img/in\ 1.png);
+}
+
+.footer-conteiner__content {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
-  margin-bottom: 10px;
 }
 
 
-.contacts__description{
-  margin-bottom: 10px;
+.wrapper__main{
+  background:url(/img/1.png) center top no-repeat,url(/img/2.png) right 30px bottom 160px no-repeat;
 }
-
