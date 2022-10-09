@@ -343,7 +343,7 @@ index.css h6 {
 }
 
 .about__team {
-  background: url(/img/mountains.png);
+  background: url(./img/mountains.png);
   width: 785px;
   height: 455px;
   margin-top: -412px;
@@ -403,6 +403,7 @@ index.css h6 {
 .contacts__description {
   font-size: 11px;
   color: #9a9a9a;
+  
 }
 
 .socials__link {
@@ -437,37 +438,48 @@ index.css h6 {
 }
 
 .social__item--icon-vk {
-  background-image: url(/img/vk.png);
+  background-image: url(./img/vk.png);
 }
 
 .social__item--icon-vk:hover {
-  background-image: url(/img/vk\ 1.png);
+  background-image: url(./img/vk\ 1.png);
 }
 
 .social__item--icon-fec {
-  background-image: url(/img/f.png);
+  background-image: url(./img/f.png);
 }
 
 .social__item--icon-fec:hover {
-  background-image: url(/img/f2.png);
+  background-image: url(./img/f2.png);
 }
 
 .social__item--icon-insta {
-  background-image: url(/img/in.png);
+  background-image: url(./img/in.png);
 }
 
 .social__item--icon-insta:hover {
-  background-image: url(/img/in\ 1.png);
+  background-image: url(./img/in\ 1.png);
 }
 
-.footer-conteiner__content {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+.footer{
+  border-top: solid 1px rgba(255, 255, 255, 1);
+
+}
+
+.contacts__description{
+  margin-top: 10px;
+}
+
+.footer-conteiner__content{
+  margin-top: 29px;
   position: relative;
 }
 
 
 .wrapper__main{
-  background:url(/img/1.png) center top no-repeat,url(/img/2.png) right 30px bottom 160px no-repeat;
+  background:url(./img/1.png) center top no-repeat,url(./img/2.png) right 30px bottom 160px no-repeat;
 }
 
-
+.contacts__phone{
+  margin-top: 14px;
+}
