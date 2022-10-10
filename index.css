@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin:0;
+  margin: 0;
 }
 
 img {
@@ -395,16 +395,14 @@ index.css h6 {
 }
 
 .footer {
-  margin-top: 12px;
   height: 146px;
   position: relative;
-  margin-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 1);
 }
 
 .contacts__description {
   font-size: 11px;
   color: #9a9a9a;
-  
 }
 
 .socials__link {
@@ -462,25 +460,20 @@ index.css h6 {
   background-image: url(./img/in\ 1.png);
 }
 
-.footer{
-  border-top: solid 1px rgba(255, 255, 255, 1);
-
-}
-
-.contacts__description{
+.contacts__description {
   margin-top: 10px;
 }
 
-.footer-conteiner__content{
+.footer-conteiner__content {
   margin-top: 29px;
   position: relative;
 }
 
-
-.wrapper__main{
-  background:url(./img/1.png) center top no-repeat,url(./img/2.png) right 30px bottom 160px no-repeat;
+.wrapper__main {
+  background: url(./img/1.png) center top no-repeat,
+    url(./img/2.png) right 30px bottom 160px no-repeat;
 }
 
-.contacts__phone{
+.contacts__phone {
   margin-top: 14px;
 }
